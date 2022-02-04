@@ -1,0 +1,135 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+ul {
+  padding: 0px !important;
+}
+.menu-principal {
+  width: 100%;
+  background-color: #f7ca03e8;
+  height: 60px;
+}
+main,
+.content {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+.logo {
+  float: left;
+  padding: 16px;
+  width: 70%;
+}
+.redes-sociais ul li {
+  margin-left: 25px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
+.redes-sociais {
+  width: 25%;
+  float: right;
+}
+.header-2 {
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.menu-urls {
+  height: 80px;
+  border-bottom: 3px solid #ffffff;
+}
+.menu ul li {
+  display: inline-block;
+  color: #7e7272;
+  margin-left: 15px;
+  height: 50px;
+}
+
+.menu ul li:hover {
+  border-bottom: 3px solid rgba(247, 230, 157, 0.91);
+}
+
+.menu ul li a:hover {
+  color: #f7ca03e8;
+}
+
+.menu ul li a {
+  color: #030302e8;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.menu {
+  width: 70%;
+  float: left;
+}
+.busca {
+  text-align: center;
+  width: 30%;
+  float: right;
+}
+.busca input {
+  background-image: url(./img/icone-search.png);
+  background-repeat: no-repeat;
+  height: 36px;
+  padding: 12px;
+  width: 190px;
+  margin-top: 10px;
+  background-position: 96%;
+  border: 1px solid #f7ca03e8;
+}
+.col-3 {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 29%;
+  float: left;
+  position: relative;
+}
+.bloco-imagem img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+.bloco-imagem {
+  height: 300px;
+  border: 1px solid #f7ca03e8;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px;
+}
+.bloco-imagem b,
+p {
+  text-align: left;
+}
+.bloco-texto {
+  margin-top: 3em;
+}
+
+h3 {
+  font-weight: normal !important;
+}
+
+.bloco-imagens-texto {
+  background-color: hsl(56, 92%, 74%);
+}
+.bloco-imagens-texto:before {
+  width: 100%;
+  display: inline-block;
+  content: "";
+  height: 52px;
+  background: #f7ca03e8;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bloco-imagens-texto:after {
+  width: 100%;
+  display: inline-block;
+  content: "";
+  height: 70px;
+  background: #f7ca03e8;
+}
