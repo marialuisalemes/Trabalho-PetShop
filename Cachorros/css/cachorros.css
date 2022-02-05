@@ -73,7 +73,7 @@ main,
   float: right;
 }
 .busca input {
-  background-image: url(./img/icone-search.png);
+  background-image: url(../img/icone-search.png);
   background-repeat: no-repeat;
   height: 36px;
   padding: 12px;
